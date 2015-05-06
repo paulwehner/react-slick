@@ -9,6 +9,18 @@ Also install slick-carousel for css and font
 ```bash
   bower install slick-carousel
 ```
+
+Don't forget to add Slick CSS. CDN hosted slick is a great way to get set up quick:
+
+In your head add:
+```bash
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.2/slick.css"/>
+```
+Add the slick-theme.css if you want default styling
+```bash
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.2/slick-theme.css"/>
+```
+
 ### [Demos](http://webrafter.com/opensource/react-slick)
 
 ### Starter Kit
